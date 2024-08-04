@@ -22,7 +22,7 @@ API_ID = int(environ.get("API_ID", "21863423"))
 API_HASH = environ.get("API_HASH", "ee4f76b8804cbd72207bf3118d589dc5")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
-PICS = (environ.get('PICS', 'https://graph.org/file/ce1723991756e48c35aa1.jpg')).split() # Bot Start Picture
+PICS = (environ.get('PICS', 'https://telegra.ph/file/d8490e78b4db3031d0f2b.jpg https://telegra.ph/file/cbcbb36f3d3f128edf21f.jpg https://telegra.ph/file/a37bf4e8d8d2b97b88c0c.jpg https://telegra.ph/file/d32428f15430995da0772.jpg')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7063698506').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "Terabox_agarwal_bot") # without @
 PORT = environ.get("PORT", "8080")
