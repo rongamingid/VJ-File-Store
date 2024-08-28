@@ -18,13 +18,13 @@ def is_enabled(value, default):
         return default
       
 # Bot Information
-API_ID = int(environ.get("API_ID", "21863423"))
-API_HASH = environ.get("API_HASH", "ee4f76b8804cbd72207bf3118d589dc5")
+API_ID = int(environ.get("API_ID", "25282308"))
+API_HASH = environ.get("API_HASH", "3f5c041738ce25f3942e59e809ab838a")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
 PICS = (environ.get('PICS', 'https://telegra.ph/file/d8490e78b4db3031d0f2b.jpg https://telegra.ph/file/cbcbb36f3d3f128edf21f.jpg https://telegra.ph/file/a37bf4e8d8d2b97b88c0c.jpg https://telegra.ph/file/d32428f15430995da0772.jpg')).split() # Bot Start Picture
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7063698506').split()]
-BOT_USERNAME = environ.get("BOT_USERNAME", "Terabox_agarwal_bot") # without @
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6826356197').split()]
+BOT_USERNAME = environ.get("BOT_USERNAME", "Isha_tube_bot") # without @
 PORT = environ.get("PORT", "8080")
 
 # Clone Info :-
@@ -35,7 +35,7 @@ CLONE_DB_URI = environ.get("CLONE_DB_URI", "")
 CDB_NAME = environ.get("CDB_NAME", "clonetechvj")
 
 # Database Information
-DB_URI = environ.get("DB_URI", "mongodb+srv://dipeshxyzyadav:ws1SIxbNdxfVwaSb@cluster0.b7mhopj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URI = environ.get("DB_URI", "mongodb+srv://dipeshsoubodh:eNhZ54HX42EBalDU@cluster0.cq2tr9i.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = environ.get("DB_NAME", "techvjbotz")
 
 # Auto Delete Information
@@ -46,7 +46,7 @@ AUTO_DELETE = int(environ.get("AUTO_DELETE", "20")) # Time in Minutes
 AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "1200")) # Time in Seconds
 
 # Channel Information
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002207973704"))
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002198071761"))
 
 # File Caption Information
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
